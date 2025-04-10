@@ -30,7 +30,7 @@ function Login() {
     <div className='flex items-center justify-center w-full min-h-screen'>
       <div className={`mx-auto w-full max-w-lg bg-gray-900 rounded-xl p-10 border`}>
         <div className='mb-2 flex justify-center'>
-          <span className='inline-block w-full max-w-[100px]'>
+          <span className='inline-block w-full max-w-[40px]'>
             <Logo width='100%'/>
           </span>
         </div>
@@ -69,7 +69,7 @@ function Login() {
               placeholder='Enter your password'
               {...register('password', { required: true })}
             />
-            <Button type='submit' className='w-full'>
+            <Button type='submit' className='w-full mt-8'>
               Sign In
             </Button>
           </div>
